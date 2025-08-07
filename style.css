@@ -1,0 +1,87 @@
+ body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            color: #1c1e21;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 2rem 1rem;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+        }
+        h1 {
+            color: #0d6efd;
+            margin-bottom: 1.5rem;
+        }
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 1.5rem;
+        }
+        input[type="text"] {
+            flex-grow: 1;
+            padding: 0.75rem;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+        button {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 6px;
+            background-color: #0d6efd;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0b5ed7;
+        }
+        button.secondary {
+            background-color: #6c757d;
+        }
+        button.secondary:hover {
+            background-color: #5c636a;
+        }
+        button.tertiary {
+            background-color: #dc3545;
+        }
+        button.tertiary:hover {
+            background-color: #bb2d3b;
+        }
+        .list-container {
+            text-align: left;
+            padding: 1rem;
+            background-color: #f7f7f7;
+            border-radius: 6px;
+            min-height: 50px;
+            margin-top: 1rem;
+        }
+        .list-container p {
+            margin: 0;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e9e9e9;
+        }
+        .list-container p:last-child {
+            border-bottom: none;
+        }
+        .list-container p.riscado {
+            text-decoration: line-through;
+            color: #888;
+        }
+        .buttons-footer {
+            margin-top: 1.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
