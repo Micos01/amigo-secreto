@@ -15,12 +15,11 @@ Este projeto foi construído com HTML, CSS e JavaScript puro, focando numa lógi
   * Verifica se um nome já foi adicionado (ignorando maiúsculas e minúsculas) para evitar duplicados.
 
 * **Sorteio Justo**:
-  * Exige um mínimo de 4 participantes para garantir um sorteio válido.
+  * Exige um mínimo de 2 participantes para garantir um sorteio válido.
   * Utiliza o algoritmo de embaralhamento Fisher-Yates para garantir a aleatoriedade.
-  * Cria um ciclo fechado onde cada participante sorteia outro, e o último sorteia o primeiro, garantindo que ninguém se sorteia a si mesmo.
+
 
 * **Feedback Visual**:
-  * Após o sorteio, os pares (ex: `Pessoa A → Pessoa B`) são exibidos.
   * A lista original de participantes é visualmente riscada para indicar que o sorteio foi concluído.
 
 * **Reiniciar**:
